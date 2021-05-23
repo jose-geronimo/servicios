@@ -10,4 +10,6 @@ public class Isma8ExampleApplication {
 		SpringApplication.run(Isma8ExampleApplication.class, args);
 	}
 
+
+
 }
