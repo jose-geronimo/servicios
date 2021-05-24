@@ -16,8 +16,8 @@ public class SesionController {
     private SesionService sesionService;
 
     @PostMapping("/iniciar")
-    public void iniSesion(@RequestBody DtoSesion sesion){
-        sesionService.iniSesion(sesion);
+    public boolean iniSesion(@RequestBody DtoSesion sesion){
+        return sesionService.iniSesion(sesion);
     }
 
 
